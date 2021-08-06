@@ -1,6 +1,6 @@
 {
   "name": "detect-color",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Takes a string representing rgb code as input and outputs an object with the name of detected color.",
   "main": "index.js",
   "scripts": {
