@@ -1,5 +1,5 @@
 # detect-color
- Takes a string representing RGB or HEX code as input and outputs an object with the name of detected color. It works with 6 basic colors: red, green, blue, white, yellow, orange.
+ Takes a string representing RGB or HEX code as input and outputs an object with the name of detected color. It works with all basic colors: red, green, blue, white, yellow, orange, black, pink, purple.
  
  ### Install
  ***
