@@ -1,13 +1,17 @@
 {
   "name": "detect-color",
   "version": "1.0.3",
-  "description": "Takes a string representing rgb code as input and outputs an object with the name of detected color.",
+  "description": "Takes a string representing RGB or HEX code as input and outputs an object with the name of detected color.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "test": "jest"
   },
   "keywords": [
     "rgb",
+    "hex",
+    "color",
+    "detect",
     "detecting colors",
     "css color naming"
   ],
@@ -16,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/denisrybalka/detect-color/issues"
   },
-  "homepage": "https://github.com/denisrybalka/detect-color"
+  "homepage": "https://github.com/denisrybalka/detect-color",
+  "dependencies": {
+    "hex2rgb": "^2.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  }
 }
