@@ -24,7 +24,7 @@ console.log(color.detectedColor); // => steelblue
 console.log(color2.detectedColor); // => springgreen
 ```
 
-## Detecting shades
+### Detecting shades
 ***
 As I said before, you can also detect shades of all basic colors. For example if you want to know if **palegreen** is a shade of **green** color, you can simply use ```detectColor()``` function. It takes rgb or hex code of your shade color and returns closest found color.
 ```js
