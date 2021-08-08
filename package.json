@@ -1,6 +1,6 @@
 {
   "name": "detect-color",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Takes a string representing RGB or HEX code as input and outputs an object with the name of closest detected CSS color.",
   "main": "index.js",
   "scripts": {
